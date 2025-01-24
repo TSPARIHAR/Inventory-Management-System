@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Inventory API</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Inventory API</h1>
+        <nav>
+            <ul>
+                <li><a href="/admin/">Admin</a></li>
+                <li><a href="/api/products/">Products</a></li>
+                <li><a href="/api/vendors/">Vendors</a></li>
+                <li><a href="/api/sales/">Sales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>This is a simple API for managing inventory.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Inventory System</p>
+    </footer>
+</body>
+</html>

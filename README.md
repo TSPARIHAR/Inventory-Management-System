@@ -119,10 +119,6 @@ inventory_system/
 └── db.sqlite3                # SQLite database file
 ```
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
-For questions or feedback, please open an issue or contact the maintainer.
+For questions or feedback, please open an issue or contact here.
